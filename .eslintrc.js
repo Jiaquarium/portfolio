@@ -1,0 +1,91 @@
+module.exports = {
+    parser: require.resolve('babel-eslint'),
+    extends: [
+        require.resolve('eslint-config-airbnb'),
+        'plugin:flowtype/recommended',
+        'plugin:react/recommended',
+        require.resolve('eslint-config-prettier'),
+        require.resolve('eslint-config-prettier/flowtype'),
+        require.resolve('eslint-config-prettier/react')
+    ],
+    env: {
+        'browser': true,
+        'es6': true,
+    },
+    root: true,
+    plugins: ['flowtype', 'compat', 'prettier'],
+    parserOptions: {
+        'ecmaVersion': 6,
+        'sourceType': 'module',
+        'allowImportExportEverywhere': true,
+        'ecmaFeatures': {
+            'jsx': true,
+            'experimentalObjectRestSpread': true,
+        },
+    },
+    settings: {
+        'import/ignore': ['.(scss|css)$', 'node_modules'],
+        polyfills: ['fetch'],
+    },
+    rules: {
+        'compat/compat': 'error',
+        'consistent-return': 'error',
+        'func-names': 'off',
+        'import/named': 'error',
+        'import/no-named-as-default-member': 'off',
+        'import/prefer-default-export': 'off',
+        'import/no-amd': 'error',
+        'import/no-commonjs': 'error',
+        'import/no-duplicates': 'error',
+        'import/extensions': ['error', 'always', { 'js': 'never' }],
+        'import/no-extraneous-dependencies': ['error', {
+            'devDependencies': [
+                '**/*test*.js',
+                '**/fixtures/*.js',
+                'webpack.config.*.js',
+                'dev-*.js'
+            ]
+        }],
+        'import/order': ['error', {
+            'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        }],
+        'no-duplicate-imports': 'off',
+        'linebreak-style': ['error', 'unix'],
+        'no-cond-assign': ['error', 'always'],
+        'no-multi-str': 'off',
+        'no-underscore-dangle': 'off',
+        'no-param-reassign': 'error',
+        'no-return-assign': 'off',
+        'no-unneeded-ternary': 'error',
+        'no-use-before-define': 'off',
+        'no-unused-vars': ['error', { 'vars': 'all', 'args': 'none' }],
+        'prefer-arrow-callback': 'error',
+        'prefer-rest-params': 'error',
+        'prefer-template': 'error',
+        'react/prop-types': ['warn', { 'ignore': ['children', 'style'] }],
+        'react/forbid-prop-types': 'off',
+        'react/jsx-filename-extension': 'off',
+        'react/jsx-no-duplicate-props': 'error',
+        'react/jsx-wrap-multilines': 'off',
+        'react/jsx-uses-react': 'warn',
+        'react/jsx-uses-vars': 'warn',
+        'jsx-a11y/href-no-hash': 'off',
+        'jsx-a11y/anchor-is-valid': ['warn', { 'aspects': ['invalidHref'] }],
+        'react/no-did-mount-set-state': 'error',
+        'react/no-set-state': 'off',
+        'react/prefer-es6-class': 'off',
+        'react/no-unused-prop-types': 'off',
+        'react/display-name': 'off',
+        'react/no-unescaped-entities': 'off',
+        'react/sort-comp': 'off',
+        'react/require-default-props': 'off',
+        'react/prefer-stateless-function': 'warn',
+        'react/sort-prop-types': 'error',
+        'prettier/prettier': ['error', {
+            'trailingComma': 'es5',
+            'singleQuote': true,
+            'tabWidth': 4,
+            'printWidth': 90,
+        }]
+    }
+}
