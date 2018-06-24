@@ -32,10 +32,20 @@ ssh into ec2 instance, pull down new image and run container:
 ```
 ssh -i /Users/jamesgu/keys/ec2-20160125-key-pair.pem ec2-user@<INSTANCE_IP>
 
-e.g.
-docker pull jamesgu/art-portfolio:2017_10_21_1630
+docker pull jamesgu/art-portfolio:2017_10_21_1630 OR pull this repo
+```
+
+Then stop existing container and build a new Docker image from this repo and run it:
+```
 docker stop <CURRENT_CONTAINER_HASH>
 docker rm <CURRENT_CONTAINER_HASH>
+pull this repo
+make docker-build
+make docker-run
+```
+
+Or run the new container with an image from DockerHub:
+```
 docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2017_10_21_1630
 ```
 
