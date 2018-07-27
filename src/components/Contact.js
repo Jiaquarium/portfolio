@@ -29,8 +29,8 @@ const Contact = () => (
     <ContactContainer>
         <ContactContentContainer>
             <ParagraphWithPadding>
-                <Link href="mailto:jamesgu521@gmail.com" target="_top">
-                    jamesgu521@gmail.com
+                <Link href="mailto:gu.james.j@gmail.com" target="_top">
+                    email gu.james.j@gmail.com
                 </Link>
             </ParagraphWithPadding>
             <ParagraphWithPadding>
@@ -39,7 +39,7 @@ const Contact = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    instagram
+                    instagram @ jamesguu
                 </Link>
             </ParagraphWithPadding>
         </ContactContentContainer>

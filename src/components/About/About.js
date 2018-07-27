@@ -38,15 +38,8 @@ const About = () => (
     <AboutContainer>
         <AboutContentContainer>
             <ParagraphWithPadding>
-                she gave me this paper and said to show it to the guards
+                Oakland, CA
             </ParagraphWithPadding>
-            <ImgContainer>
-                <Img src="static/raw-media/grandma-note.jpg" alt="grandma’s note" />
-            </ImgContainer>
-            <ParagraphWithPadding>…</ParagraphWithPadding>
-            <ImgContainer>
-                <Img src="static/raw-media/poem.jpg" alt="poem" />
-            </ImgContainer>
         </AboutContentContainer>
     </AboutContainer>
 );
