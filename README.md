@@ -14,39 +14,23 @@ e.g.
 - "docker-build": "docker build -t jamesgu/art-portfolio:2017_9_21_1200 ."
 + "docker-build": "docker build -t jamesgu/art-portfolio:2017_10_21_1630 ."
 
-- "docker-push": "docker push jamesgu/art-portfolio:2017_9_21_1200"
-+ "docker-push": "docker push jamesgu/art-portfolio:2017_10_21_1630"
-
 - "docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2017_9_21_1200"
 + "docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2017_10_21_1630"
 ```
 
-Build and push docker image:
-```
-docker login
-npm run docker-build
-npm run docker-push
-```
-
-ssh into ec2 instance, pull down new image and run container:
+ssh into ec2 instance, pull down repo from github / ensure we're up to date:
 ```
 ssh -i /Users/jamesgu/keys/ec2-20160125-key-pair.pem ec2-user@<INSTANCE_IP>
 
-docker pull jamesgu/art-portfolio:2017_10_21_1630 OR pull this repo
+git pull origin master
 ```
 
 Then stop existing container and build a new Docker image from this repo and run it:
 ```
 docker stop <CURRENT_CONTAINER_HASH>
 docker rm <CURRENT_CONTAINER_HASH>
-pull this repo
 make docker-build
 make docker-run
-```
-
-Or run the new container with an image from DockerHub:
-```
-docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2017_10_21_1630
 ```
 
 > ensure webpack 3.11.0 is installed for react-scripts to work
