@@ -9,12 +9,6 @@ import { gutterSize } from '../styles/gutter';
 import routes from '../isomorphic/routes';
 import Page404 from './utils/Page404';
 import Sidebar from './utils/Sidebar';
-/*
-    Qualities:
-    MOBILE: 80% JPG quality from sketch
-    MOBILE-FULL: 90%
-    FULL: 100%
-*/
 
 const AppContainer = styled.div`
     display: flex;

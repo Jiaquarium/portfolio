@@ -1,4 +1,3 @@
-import React from 'react';
 import Portfolio from '../components/Portfolio/Portfolio';
 import About from '../components/About';
 import Contact from '../components/Contact';
@@ -14,6 +13,14 @@ export const navItems = [
         path: '/',
         label: 'portfolio',
         canExpand: true,
+    },
+    {
+        path: '/analects',
+        exact: true,
+        component: Portfolio,
+        label: 'analects',
+        fetchInitialData: () => getPortfolioData('/analects'),
+        nestedUnder: '/',
     },
     {
         path: '/not-good-enough-for-a-story',

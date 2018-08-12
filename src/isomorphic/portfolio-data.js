@@ -5,6 +5,17 @@
     FULL: 100%
 */
 const portfolioData = {
+    '/analects': [
+        {
+            id: 1,
+            title: 'nymph of luo river',
+            size: '40”x30”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/ballerina-lo.jpg',
+            hiResImg: 'static/raw-media/ballerina-hi.jpg',
+            description: 'nymph of luo river',
+        },
+    ],
     '/not-good-enough-for-a-story': [
         {
             id: 1,
