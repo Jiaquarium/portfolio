@@ -18,7 +18,7 @@ const Img = styled.img`
 `;
 
 const Logo = () => (
-    <NavLink to="/not-good-enough-for-a-story">
+    <NavLink to="/analects">
         <ImgContainer>
             <Img src="static/raw-media/penguin-logo.jpg" alt="penguin logo" />
         </ImgContainer>
