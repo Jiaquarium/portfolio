@@ -8,12 +8,21 @@ const portfolioData = {
     '/analects': [
         {
             id: 1,
-            title: 'nymph of luo river',
+            title: 'nymph of luo river, 2018, oil on canvas, 40”x30”.',
             size: '40”x30”.',
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/ballerina-lo.jpg',
             hiResImg: 'static/raw-media/ballerina-hi.jpg',
-            description: 'nymph of luo river',
+            description: 'nymph of luo river, 2018, oil on canvas, 40”x30”.',
+        },
+        {
+            id: 2,
+            title: 'intruders, 2018, oil on canvas, 30”x40”.',
+            size: '30”x40”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/intruders-lo.jpg',
+            hiResImg: 'static/raw-media/intruders-hi.jpg',
+            description: 'intruders, 2018, oil on canvas, 30”x40”.',
         },
     ],
     '/not-good-enough-for-a-story': [
@@ -111,15 +120,6 @@ const portfolioData = {
     '/misc': [
         {
             id: 1,
-            title: 'never good enough',
-            size: '40”x30”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/never-good-enough-lo.jpg',
-            hiResImg: 'static/raw-media/never-good-enough-hi.jpg',
-            description: 'never good enough',
-        },
-        {
-            id: 2,
             title: 'moving boxes',
             size: '24”x18”.',
             medium: 'oil on canvas.',
@@ -128,7 +128,7 @@ const portfolioData = {
             description: 'moving boxes',
         },
         {
-            id: 3,
+            id: 2,
             title: 'breathe',
             size: '24”x19”.',
             medium: 'pen and ink.',
@@ -137,7 +137,7 @@ const portfolioData = {
             description: 'breathe',
         },
         {
-            id: 4,
+            id: 3,
             title: 'mask off',
             size: '19”x24”.',
             medium: 'pen and ink.',
