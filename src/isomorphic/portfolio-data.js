@@ -24,6 +24,17 @@ const portfolioData = {
             hiResImg: 'static/raw-media/intruders-hi.jpg',
             description: 'intruders, 2018, oil on canvas, 30”x40”.',
         },
+        {
+            id: 3,
+            title:
+                'out with the old, in with the new, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
+            size: '12”x72”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/white-snake-lo.jpg',
+            hiResImg: 'static/raw-media/white-snake-hi.jpg',
+            description:
+                'out with the old, in with the new, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
+        },
     ],
     '/not-good-enough-for-a-story': [
         {
