@@ -26,7 +26,7 @@ dev-prod: build
 	$(BIN)/nodemon server/bootstrap.js
 
 docker-build:
-	docker build -t jamesgu/art-portfolio:2018_09_06_2300 .
+	docker build -t jamesgu/art-portfolio:2018_11_21_1800 .
 
 docker-run:
-	docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2018_09_06_2300
+	docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2018_11_21_1800
