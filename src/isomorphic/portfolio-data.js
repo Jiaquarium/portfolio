@@ -35,6 +35,17 @@ const portfolioData = {
             description:
                 'out with the old, in with the new, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
         },
+        {
+            id: 4,
+            title: 'dear my little',
+            size: '72”x18”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/dear-my-little-lo.jpg',
+            hiResImg: 'static/raw-media/dear-my-little-hi.jpg',
+            description:
+                'dear my little, 2018, oil on canvas, two panels, each panel 36”x18”.',
+            lowResImgWidth: '40%',
+        },
     ],
     '/not-good-enough-for-a-story': [
         {

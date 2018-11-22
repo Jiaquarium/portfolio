@@ -53,6 +53,7 @@ export default class Card extends Component {
             lowResImg,
             hiResImg,
             description,
+            lowResImgWidth,
         } = this.props;
         const { imgSrc } = this.state;
         return (
@@ -62,7 +63,10 @@ export default class Card extends Component {
                         src: imgSrc,
                         alt: `${activePortfolio} – ${title} (lo-res)`,
                         className: `${activePortfolio}__img`,
-                        style: { width: '100%' },
+                        style: {
+                            width: lowResImgWidth || '100%',
+                            'align-self': 'center',
+                        },
                     }}
                     zoomImage={{
                         src: imgSrc,

@@ -51,6 +51,7 @@ class Portfolio extends Component {
                             lowResImg={artwork.lowResImg}
                             hiResImg={artwork.hiResImg}
                             description={artwork.description}
+                            lowResImgWidth={artwork.lowResImgWidth}
                         />
                     ))}
             </PortfolioContainer>
