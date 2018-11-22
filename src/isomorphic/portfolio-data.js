@@ -46,6 +46,15 @@ const portfolioData = {
                 'dear my little, 2018, oil on canvas, two panels, each panel 36”x18”.',
             lowResImgWidth: '40%',
         },
+        {
+            id: 5,
+            title: 'letting go',
+            size: '30”x40”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/letting-go-lo.jpg',
+            hiResImg: 'static/raw-media/letting-go-hi.jpg',
+            description: 'letting go, 2018, acrylic on canvas, 30”x40”.',
+        },
     ],
     '/not-good-enough-for-a-story': [
         {
