@@ -48,6 +48,15 @@ const portfolioData = {
         },
         {
             id: 5,
+            title: 'feet study',
+            size: '24”x36”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/feet-study-lo.jpg',
+            hiResImg: 'static/raw-media/feet-study-hi.jpg',
+            description: 'feet study, 2018, oil on canvas, 24”x36”.',
+        },
+        {
+            id: 6,
             title: 'letting go',
             size: '30”x40”.',
             medium: 'acrylic on canvas.',
@@ -56,7 +65,7 @@ const portfolioData = {
             description: 'letting go, 2018, acrylic on canvas, 30”x40”.',
         },
         {
-            id: 6,
+            id: 7,
             title: 'scene',
             size: '24”x36”.',
             medium: 'oil on canvas.',
