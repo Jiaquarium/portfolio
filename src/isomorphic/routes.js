@@ -18,7 +18,7 @@ export const navItems = [
         path: '/analects',
         exact: true,
         component: Portfolio,
-        label: 'analects',
+        label: '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧',
         fetchInitialData: () => getPortfolioData('/analects'),
         nestedUnder: '/',
     },
