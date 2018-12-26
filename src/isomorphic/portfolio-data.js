@@ -5,7 +5,7 @@
     FULL: 100%
 */
 const portfolioData = {
-    '/analects': [
+    '/portfolio': [
         {
             id: 1,
             title: 'nymph of luo river, 2018, oil on canvas, 40”x30”.',
@@ -27,13 +27,13 @@ const portfolioData = {
         {
             id: 3,
             title:
-                'out with the old, in with the new, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
+                'folktales, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
             size: '12”x72”.',
             medium: 'acrylic on canvas.',
             lowResImg: 'static/raw-media/white-snake-lo.jpg',
             hiResImg: 'static/raw-media/white-snake-hi.jpg',
             description:
-                'out with the old, in with the new, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
+                'folktales, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
         },
         {
             id: 4,
@@ -73,6 +73,15 @@ const portfolioData = {
             hiResImg: 'static/raw-media/scene-hi.jpg',
             description: 'scene, 2018, oil on canvas, 24”x36”.',
         },
+        {
+            id: 8,
+            title: 'left down right up',
+            size: '36”x24”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/subcultures-lo.jpg',
+            hiResImg: 'static/raw-media/subcultures-hi.jpg',
+            description: 'left down right up, 2018, acrylic on canvas, 36”x24”.',
+        },
     ],
     '/not-good-enough-for-a-story': [
         {
@@ -95,42 +104,15 @@ const portfolioData = {
         },
         {
             id: 3,
-            title: 'never knows best',
-            size: '14”x11”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/never-knows-best-lo.jpg',
-            hiResImg: 'static/raw-media/never-knows-best-hi.jpg',
-            description: 'never knows best',
-        },
-        {
-            id: 4,
-            title: 'it’s not 刚在',
+            title: 'hilariously frustrating family dinners',
             size: '12”x16”.',
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/family-dinner-lo.jpg',
             hiResImg: 'static/raw-media/family-dinner-hi.jpg',
-            description: 'it’s not 刚在',
+            description: 'hilariously frustrating family dinners',
         },
         {
-            id: 5,
-            title: 'lost in translation',
-            size: '14”x11”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/lost-in-translation-lo.jpg',
-            hiResImg: 'static/raw-media/lost-in-translation-hi.jpg',
-            description: 'lost in translation',
-        },
-        {
-            id: 6,
-            title: 'maybe someday',
-            size: '12”x16”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/maybe-someday-lo.jpg',
-            hiResImg: 'static/raw-media/maybe-someday-hi.jpg',
-            description: 'maybe someday',
-        },
-        {
-            id: 7,
+            id: 4,
             title: 'hi nice to meet you',
             size: '14”x11”.',
             medium: 'oil on canvas.',
@@ -139,7 +121,7 @@ const portfolioData = {
             description: 'hi nice to meet you',
         },
         {
-            id: 8,
+            id: 5,
             title: 'night loops',
             size: '12”x24”.',
             medium: 'oil on canvas.',
@@ -148,16 +130,7 @@ const portfolioData = {
             description: 'night loops',
         },
         {
-            id: 9,
-            title: 'saying goodbye a lot more nowadays',
-            size: '14”x11”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/saying-goodbye-lo.jpg',
-            hiResImg: 'static/raw-media/saying-goodbye-hi.jpg',
-            description: 'saying goodbye a lot more nowadays',
-        },
-        {
-            id: 10,
+            id: 6,
             title: 'i’m sure it’s worth it',
             size: '12”x24”.',
             medium: 'oil on canvas.',
@@ -174,7 +147,7 @@ const portfolioData = {
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/boxes-lo.jpg',
             hiResImg: 'static/raw-media/boxes-hi.jpg',
-            description: 'moving boxes',
+            description: '',
         },
         {
             id: 2,
@@ -183,7 +156,7 @@ const portfolioData = {
             medium: 'pen and ink.',
             lowResImg: 'static/raw-media/nature-lo.jpg',
             hiResImg: 'static/raw-media/nature-hi.jpg',
-            description: 'breathe',
+            description: '',
         },
         {
             id: 3,
@@ -192,7 +165,7 @@ const portfolioData = {
             medium: 'pen and ink.',
             lowResImg: 'static/raw-media/isis-lo.jpg',
             hiResImg: 'static/raw-media/isis-hi.jpg',
-            description: 'mask off',
+            description: '',
         },
     ],
 };

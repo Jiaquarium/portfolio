@@ -9,6 +9,10 @@ const AboutContainer = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
+
+    ${media.maxWidth.mobile`
+        padding-top: ${baseSize * 1}px;
+    `};
 `;
 const AboutContentContainer = styled.div`
     width: 50%;
@@ -37,9 +41,10 @@ const ParagraphWithPadding = styled(Paragraph)`padding-bottom: ${baseSize * 2}px
 const About = () => (
     <AboutContainer>
         <AboutContentContainer>
-            <ParagraphWithPadding>
-                Oakland, CA
-            </ParagraphWithPadding>
+            <ParagraphWithPadding>.</ParagraphWithPadding>
+            <ImgContainer>
+                <Img src="static/raw-media/waltz.jpg" alt="waltz" />
+            </ImgContainer>
         </AboutContentContainer>
     </AboutContainer>
 );

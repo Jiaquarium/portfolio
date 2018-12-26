@@ -14,11 +14,12 @@ const Img = styled.img`
     ${media.maxWidth.mobile`
         height: 33px;
         margin-top: 0;
+        padding-top: ${baseSize / 2}px;
     `};
 `;
 
 const Logo = () => (
-    <NavLink to="/analects">
+    <NavLink to="/portfolio">
         <ImgContainer>
             <Img src="static/raw-media/penguin-logo.jpg" alt="penguin logo" />
         </ImgContainer>

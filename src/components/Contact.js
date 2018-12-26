@@ -9,6 +9,10 @@ const ContactContainer = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
+
+    ${media.maxWidth.mobile`
+        padding-top: ${baseSize * 1}px;
+    `};
 `;
 const ContactContentContainer = styled.div`
     width: 50%;
@@ -30,7 +34,7 @@ const Contact = () => (
         <ContactContentContainer>
             <ParagraphWithPadding>
                 <Link href="mailto:gu.james.j@gmail.com" target="_top">
-                    email gu.james.j@gmail.com
+                    email
                 </Link>
             </ParagraphWithPadding>
             <ParagraphWithPadding>
@@ -39,7 +43,7 @@ const Contact = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    instagram @ jamesguu
+                    instagram
                 </Link>
             </ParagraphWithPadding>
         </ContactContentContainer>

@@ -15,11 +15,11 @@ export const navItems = [
         canExpand: true,
     },
     {
-        path: '/analects',
+        path: '/portfolio',
         exact: true,
         component: Portfolio,
         label: '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧',
-        fetchInitialData: () => getPortfolioData('/analects'),
+        fetchInitialData: () => getPortfolioData('/portfolio'),
         nestedUnder: '/',
     },
     {
