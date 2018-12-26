@@ -31,13 +31,15 @@ export const renderPage = ({
     <meta property="og:description" content="Visual arts portfolio of James Gu." >
     <meta property="og:title" content="James J Gu | Portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="static/raw-media/letting-go-hi.jpg" />
-    <meta property="og:image:secure_url" content="static/raw-media/letting-go-hi.jpg" />
+    <meta property="og:image" content="http://jamesjgu.com/static/raw-media/letting-go-hi.jpg" />
+    <meta property="og:image:secure_url" content="http://jamesjgu.com/static/raw-media/letting-go-hi.jpg" />
+    <meta property="og:image:width" content="2914" />
+    <meta property="og:image:height" content="2176" />
     <meta property="og:url" content="http://jamesjgu.com/" />
     <meta property="og:site_name" content="Portfolio">
 
     <meta name="twitter:description" content="Visual arts portfolio of James Gu.">
-    <meta name="twitter:image:src" content="static/raw-media/letting-go-hi.jpg" />
+    <meta name="twitter:image:src" content="http://jamesjgu.com/static/raw-media/letting-go-hi.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 
     <meta property="og:image:type" content="image/jpeg" />
