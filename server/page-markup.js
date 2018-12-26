@@ -28,16 +28,16 @@ export const renderPage = ({
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
 
-    <meta name="og:description" content="Visual arts portfolio of James Gu. Oakland, CA." >
+    <meta property="og:description" content="Visual arts portfolio of James Gu." >
     <meta property="og:title" content="James J Gu | Portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="static/raw-media/bart-hi.jpg" />
-    <meta property="og:image:secure_url" content="static/raw-media/bart-hi.jpg" />
+    <meta property="og:image" content="static/raw-media/letting-go-hi.jpg" />
+    <meta property="og:image:secure_url" content="static/raw-media/letting-go-hi.jpg" />
     <meta property="og:url" content="http://jamesjgu.com/" />
     <meta property="og:site_name" content="Portfolio">
 
-    <meta name="twitter:description" content="Visual arts portfolio of James Gu. Oakland, CA.">
-    <meta name="twitter:image:src" content="static/raw-media/bart-hi.jpg" />
+    <meta name="twitter:description" content="Visual arts portfolio of James Gu.">
+    <meta name="twitter:image:src" content="static/raw-media/letting-go-hi.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 
     <meta property="og:image:type" content="image/jpeg" />
@@ -59,7 +59,7 @@ export const renderPage = ({
     -->
     <title>James J Gu | Portfolio</title>
     <meta name="author" content="James Gu">
-    <meta name="description" content="Visual arts portfolio of James Gu. Oakland, CA.">
+    <meta name="description" content="Visual arts portfolio of James Gu.">
 
     <link rel="preload" href="static/js/${bundleFileName}.js" as="script">
     <link rel="prefetch" href="static/js/${bundleFileName}.js">
