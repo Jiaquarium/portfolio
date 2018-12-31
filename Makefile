@@ -12,8 +12,6 @@ build: clean
 	rm build/index.html
 	echo 'Transferring image assets over 📷'
 	cp -R src/assets/ build/static/raw-media
-	echo 'Move sitemap over 🐾'
-	cp src/sitemap.xml build/static/sitemap.xml
 	echo 'Renaming bundle to general name so page-markup can locate ✅'
 	mv build/static/js/main.*.js build/static/js/$(CLIENT_BUNDLE_FILE_NAME).js
 
@@ -28,7 +26,7 @@ dev-prod: build
 	$(BIN)/nodemon server/bootstrap.js
 
 docker-build:
-	docker build -t jamesgu/art-portfolio:2018_12_30_1950 .
+	docker build -t jamesgu/art-portfolio:2018_12_30_2030 .
 
 docker-run:
-	docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2018_12_30_1950
+	docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:2018_12_30_2030
