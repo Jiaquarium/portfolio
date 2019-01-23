@@ -22,7 +22,7 @@ export default (req, res, next) => {
     const styleTags = sheet.getStyleTags();
     const page = {
         bundleFileName: `client-bundle`,
-        staticPath: path.resolve('..', '..', 'build', 'static'),
+        staticPath: path.resolve('/', '..', '..', 'build', 'static'),
         isProductionEnvironment: config.isProductionEnvironment,
         appMarkup,
         styleTags,
