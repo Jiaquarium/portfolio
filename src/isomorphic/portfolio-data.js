@@ -80,7 +80,17 @@ const portfolioData = {
             medium: 'acrylic on canvas.',
             lowResImg: 'static/raw-media/subcultures-lo.jpg',
             hiResImg: 'static/raw-media/subcultures-hi.jpg',
-            description: 'left down right up, 2018, acrylic on canvas, 36”x24”.',
+            description: 'left down right up, 2019, acrylic on canvas, 36”x24”.',
+        },
+        {
+            id: 9,
+            title: 'feet study 2',
+            size: '21”x32”.',
+            medium: 'oil, house paint and ink on wood panels and wood boards.',
+            lowResImg: 'static/raw-media/feet-study-2-lo.jpg',
+            hiResImg: 'static/raw-media/feet-study-2-hi.jpg',
+            description:
+                'feet study 2, 2019, oil, house paint and ink on wood panels and wood boards, 21”x32”.',
         },
     ],
     '/not-good-enough-for-a-story': [
