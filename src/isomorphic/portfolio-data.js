@@ -92,6 +92,16 @@ const portfolioData = {
             description:
                 'feet study 2, 2019, oil, house paint and ink on wood panels and wood boards, 21”x32”.',
         },
+        {
+            id: 10,
+            title: 'under these lights',
+            size: '22”x34”.',
+            medium: 'acrylic and ink on canvas.',
+            lowResImg: 'static/raw-media/under-these-lights-lo.jpg',
+            hiResImg: 'static/raw-media/under-these-lights-hi.jpg',
+            description:
+                'under these lights, 2019, acrylic and ink on canvas, 22”x34”.',
+        },
     ],
     '/not-good-enough-for-a-story': [
         {
