@@ -77,10 +77,11 @@ const portfolioData = {
             id: 8,
             title: 'left down right up',
             size: '36”x24”.',
-            medium: 'acrylic on canvas.',
+            medium: 'acrylic and colored pencil on canvas.',
             lowResImg: 'static/raw-media/subcultures-lo.jpg',
             hiResImg: 'static/raw-media/subcultures-hi.jpg',
-            description: 'left down right up, 2019, acrylic on canvas, 36”x24”.',
+            description:
+                'left down right up, 2019, acrylic and colored pencil on canvas, 36”x24”.',
         },
         {
             id: 9,
@@ -101,6 +102,15 @@ const portfolioData = {
             hiResImg: 'static/raw-media/under-these-lights-hi.jpg',
             description:
                 'under these lights, 2019, acrylic and ink on canvas, 22”x34”.',
+        },
+        {
+            id: 11,
+            title: 'bart love',
+            size: '30”x28”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/subway-love-lo.jpg',
+            hiResImg: 'static/raw-media/subway-love-hi.jpg',
+            description: 'bart love, 2019, acrylic on canvas, 30”x28”.',
         },
     ],
     '/not-good-enough-for-a-story': [
