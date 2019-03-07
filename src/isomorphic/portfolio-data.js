@@ -183,21 +183,21 @@ const portfolioData = {
     '/misc': [
         {
             id: 1,
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/lavender-town-animation.gif',
+            hiResImg: 'static/raw-media/lavender-town-animation.gif',
+            description: 'RE: Gary’s Raticate',
+        },
+        {
+            id: 2,
             title: 'moving boxes',
             size: '24”x18”.',
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/boxes-lo.jpg',
             hiResImg: 'static/raw-media/boxes-hi.jpg',
-            description: '',
-        },
-        {
-            id: 2,
-            title: 'breathe',
-            size: '24”x19”.',
-            medium: 'pen and ink.',
-            lowResImg: 'static/raw-media/nature-lo.jpg',
-            hiResImg: 'static/raw-media/nature-hi.jpg',
-            description: '',
+            description: '2017',
         },
         {
             id: 3,
@@ -206,7 +206,7 @@ const portfolioData = {
             medium: 'pen and ink.',
             lowResImg: 'static/raw-media/isis-lo.jpg',
             hiResImg: 'static/raw-media/isis-hi.jpg',
-            description: '',
+            description: '2015',
         },
     ],
 };
