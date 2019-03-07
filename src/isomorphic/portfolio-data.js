@@ -114,14 +114,14 @@ const portfolioData = {
         },
         {
             id: 12,
-            title: 'i learned everything from RPGs',
+            title: 'i learned everything i know from RPGs',
             size: '23”x14”.',
             medium:
                 'cut-and-pasted illustrations from storybook, tape, ink, graphite on rice paper.',
             lowResImg: 'static/raw-media/rpgs-lo.jpg',
             hiResImg: 'static/raw-media/rpgs-hi.jpg',
             description:
-                'i learned everything from RPGs, 2019, cut-and-pasted illustrations from storybook, tape, ink, graphite on rice paper, 23”x14”.',
+                'i learned everything i know from RPGs, 2019, cut-and-pasted illustrations from storybook, tape, ink, graphite on rice paper, 23”x14”.',
         },
     ],
     '/not-good-enough-for-a-story': [
