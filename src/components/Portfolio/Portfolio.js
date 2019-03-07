@@ -13,7 +13,9 @@ const PortfolioContainer = styled.div`
 class Portfolio extends Component {
     constructor(props) {
         super(props);
-
+        /*
+            below isn't standard; only did this to play well with react-router
+        */
         let initialState;
 
         try {

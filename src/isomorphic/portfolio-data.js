@@ -112,6 +112,17 @@ const portfolioData = {
             hiResImg: 'static/raw-media/subway-love-hi.jpg',
             description: 'bart love, 2019, acrylic on canvas, 30”x28”.',
         },
+        {
+            id: 12,
+            title: 'i learned everything from RPGs',
+            size: '23”x14”.',
+            medium:
+                'cut-and-pasted illustrations from storybook, tape, ink, graphite on rice paper.',
+            lowResImg: 'static/raw-media/rpgs-lo.jpg',
+            hiResImg: 'static/raw-media/rpgs-hi.jpg',
+            description:
+                'i learned everything from RPGs, 2019, cut-and-pasted illustrations from storybook, tape, ink, graphite on rice paper, 23”x14”.',
+        },
     ],
     '/not-good-enough-for-a-story': [
         {
