@@ -8,6 +8,25 @@ const portfolioData = {
     '/portfolio': [
         {
             id: 1,
+            title: 'bart love',
+            size: '30”x28”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/subway-love-lo.jpg',
+            hiResImg: 'static/raw-media/subway-love-hi.jpg',
+            description: 'bart love, 2019, acrylic on canvas, 30”x28”.',
+        },
+        {
+            id: 2,
+            title: 'left down right up',
+            size: '36”x24”.',
+            medium: 'acrylic and colored pencil on canvas.',
+            lowResImg: 'static/raw-media/subcultures-lo.jpg',
+            hiResImg: 'static/raw-media/subcultures-hi.jpg',
+            description:
+                'left down right up, 2019, acrylic and colored pencil on canvas, 36”x24”.',
+        },
+        {
+            id: 3,
             title: 'nymph of luo river, 2018, oil on canvas, 40”x30”.',
             size: '40”x30”.',
             medium: 'oil on canvas.',
@@ -16,7 +35,7 @@ const portfolioData = {
             description: 'nymph of luo river, 2018, oil on canvas, 40”x30”.',
         },
         {
-            id: 2,
+            id: 4,
             title: 'intruders, 2018, oil on canvas, 30”x40”.',
             size: '30”x40”.',
             medium: 'oil on canvas.',
@@ -25,7 +44,7 @@ const portfolioData = {
             description: 'intruders, 2018, oil on canvas, 30”x40”.',
         },
         {
-            id: 3,
+            id: 5,
             title:
                 'folktales, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
             size: '12”x72”.',
@@ -36,7 +55,7 @@ const portfolioData = {
                 'folktales, 2018, acrylic on canvas, three panels, each panel 12”x24”.',
         },
         {
-            id: 4,
+            id: 6,
             title: 'dear my little',
             size: '72”x18”.',
             medium: 'oil on canvas.',
@@ -47,16 +66,7 @@ const portfolioData = {
             lowResImgWidth: '40%',
         },
         {
-            id: 5,
-            title: 'feet study',
-            size: '24”x36”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/feet-study-lo.jpg',
-            hiResImg: 'static/raw-media/feet-study-hi.jpg',
-            description: 'feet study, 2018, oil on canvas, 24”x36”.',
-        },
-        {
-            id: 6,
+            id: 7,
             title: 'letting go',
             size: '30”x40”.',
             medium: 'acrylic on canvas.',
@@ -65,7 +75,7 @@ const portfolioData = {
             description: 'letting go, 2018, acrylic on canvas, 30”x40”.',
         },
         {
-            id: 7,
+            id: 8,
             title: 'scene',
             size: '24”x36”.',
             medium: 'oil on canvas.',
@@ -74,17 +84,16 @@ const portfolioData = {
             description: 'scene, 2018, oil on canvas, 24”x36”.',
         },
         {
-            id: 8,
-            title: 'left down right up',
-            size: '36”x24”.',
-            medium: 'acrylic and colored pencil on canvas.',
-            lowResImg: 'static/raw-media/subcultures-lo.jpg',
-            hiResImg: 'static/raw-media/subcultures-hi.jpg',
-            description:
-                'left down right up, 2019, acrylic and colored pencil on canvas, 36”x24”.',
+            id: 9,
+            title: 'feet study',
+            size: '24”x36”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/feet-study-lo.jpg',
+            hiResImg: 'static/raw-media/feet-study-hi.jpg',
+            description: 'feet study, 2018, oil on canvas, 24”x36”.',
         },
         {
-            id: 9,
+            id: 10,
             title: 'feet study 2',
             size: '21”x32”.',
             medium: 'oil, house paint and ink on wood panels and wood boards.',
@@ -94,7 +103,7 @@ const portfolioData = {
                 'feet study 2, 2019, oil, house paint and ink on wood panels and wood boards, 21”x32”.',
         },
         {
-            id: 10,
+            id: 11,
             title: 'under these lights',
             size: '22”x34”.',
             medium: 'acrylic and ink on canvas.',
@@ -102,15 +111,6 @@ const portfolioData = {
             hiResImg: 'static/raw-media/under-these-lights-hi.jpg',
             description:
                 'under these lights, 2019, acrylic and ink on canvas, 22”x34”.',
-        },
-        {
-            id: 11,
-            title: 'bart love',
-            size: '30”x28”.',
-            medium: 'acrylic on canvas.',
-            lowResImg: 'static/raw-media/subway-love-lo.jpg',
-            hiResImg: 'static/raw-media/subway-love-hi.jpg',
-            description: 'bart love, 2019, acrylic on canvas, 30”x28”.',
         },
         {
             id: 12,
