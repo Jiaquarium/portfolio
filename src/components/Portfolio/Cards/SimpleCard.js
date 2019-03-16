@@ -14,7 +14,6 @@ const CardContainer = styled.div`
     flex-direction: column;
     margin-bottom: ${baseSize * 4}px;
 
-    ${media.maxWidth.tablet`width: 65%;`};
     ${media.maxWidth.mobile`
         width: 80%;
         margin-bottom: ${baseSize * 2}px;

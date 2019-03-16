@@ -50,12 +50,8 @@ const SidebarContainer = styled.div`
     flex: 0 0 ${sidebarWidth}px;
     flex-direction: column;
     padding-left: ${baseSize}px;
-
-    ${media.minWidth.largeScreen`
-        position: fixed;
-        left: 0;
-        width: ${sidebarWidth}px;
-    `};
+    position: fixed;
+    left: 0;
 
     ${media.maxWidth.mobile`
         display: none;
