@@ -13,7 +13,7 @@ const portfolioData = {
             medium: 'acrylic on canvas.',
             lowResImg: 'static/raw-media/subway-love-lo.jpg',
             hiResImg: 'static/raw-media/subway-love-hi.jpg',
-            description: 'bart love, 2019, acrylic on canvas, 30”x28”.',
+            description: 'BARTification, 2019, acrylic on canvas, 30”x28”.',
         },
         {
             id: 2,
@@ -70,7 +70,7 @@ const portfolioData = {
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/ballerina-lo.jpg',
             hiResImg: 'static/raw-media/ballerina-hi.jpg',
-            description: 'nymph of luo river, 2018, oil on canvas, 40”x30”.',
+            description: 'luo river, 2018, oil on canvas, 40”x30”.',
         },
         {
             id: 8,
@@ -79,7 +79,7 @@ const portfolioData = {
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/intruders-lo.jpg',
             hiResImg: 'static/raw-media/intruders-hi.jpg',
-            description: 'intruders, 2018, oil on canvas, 30”x40”.',
+            description: 'become, 2018, oil on canvas, 30”x40”.',
         },
         {
             id: 9,
