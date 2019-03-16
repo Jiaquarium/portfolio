@@ -127,15 +127,6 @@ const portfolioData = {
     '/not-good-enough-for-a-story': [
         {
             id: 1,
-            title: 'let’s talk about BART!',
-            size: '11”x14”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/bart-lo.jpg',
-            hiResImg: 'static/raw-media/bart-hi.jpg',
-            description: 'let’s talk about BART!',
-        },
-        {
-            id: 2,
             title: 'not sure it was worth it',
             size: '12”x16”.',
             medium: 'oil on canvas.',
@@ -144,7 +135,7 @@ const portfolioData = {
             description: 'not sure it was worth it',
         },
         {
-            id: 3,
+            id: 2,
             title: 'hilariously frustrating family dinners',
             size: '12”x16”.',
             medium: 'oil on canvas.',
@@ -153,7 +144,7 @@ const portfolioData = {
             description: 'hilariously frustrating family dinners',
         },
         {
-            id: 4,
+            id: 3,
             title: 'hi nice to meet you',
             size: '14”x11”.',
             medium: 'oil on canvas.',
@@ -162,7 +153,7 @@ const portfolioData = {
             description: 'hi nice to meet you',
         },
         {
-            id: 5,
+            id: 4,
             title: 'night loops',
             size: '12”x24”.',
             medium: 'oil on canvas.',
@@ -171,7 +162,7 @@ const portfolioData = {
             description: 'night loops',
         },
         {
-            id: 6,
+            id: 5,
             title: 'i’m sure it’s worth it',
             size: '12”x24”.',
             medium: 'oil on canvas.',
