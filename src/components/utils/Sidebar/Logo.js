@@ -7,7 +7,7 @@ import { NavLink } from './Sidebar';
 const ImgContainer = styled.div`height: 100%;`;
 const Img = styled.img`
     display: block;
-    height: 48px;
+    height: 60px;
     width: auto;
     margin-top: ${baseSize}px;
 
@@ -21,7 +21,7 @@ const Img = styled.img`
 const Logo = () => (
     <NavLink to="/portfolio">
         <ImgContainer>
-            <Img src="static/raw-media/penguin-logo.jpg" alt="penguin logo" />
+            <Img src="static/raw-media/walking.gif" alt="penguin logo" />
         </ImgContainer>
     </NavLink>
 );
