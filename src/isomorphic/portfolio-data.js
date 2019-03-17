@@ -177,8 +177,8 @@ const portfolioData = {
             title: '',
             size: '',
             medium: '',
-            lowResImg: 'static/raw-media/diary-gifs-train.gif',
-            hiResImg: 'static/raw-media/diary-gifs-train.gif',
+            lowResImg: 'static/raw-media/diary-gifs-taphouse.gif',
+            hiResImg: 'static/raw-media/diary-gifs-taphouse.gif',
             description: '',
         },
         {
@@ -186,9 +186,9 @@ const portfolioData = {
             title: '',
             size: '',
             medium: '',
-            lowResImg: 'static/raw-media/lavender-town-animation.gif',
-            hiResImg: 'static/raw-media/lavender-town-animation.gif',
-            description: 'RE: Gary’s Raticate',
+            lowResImg: 'static/raw-media/diary-gifs-train.gif',
+            hiResImg: 'static/raw-media/diary-gifs-train.gif',
+            description: '',
         },
     ],
 };
