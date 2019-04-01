@@ -173,7 +173,16 @@ const portfolioData = {
     ],
     '/misc': [
         {
-            id: 1,
+            id: 'pcl',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs-pcl.gif',
+            hiResImg: 'static/raw-media/diary-gifs-pcl.gif',
+            description: '',
+        },
+        {
+            id: 'club',
             title: '',
             size: '',
             medium: '',
@@ -182,7 +191,7 @@ const portfolioData = {
             description: '',
         },
         {
-            id: 2,
+            id: 'taphouse',
             title: '',
             size: '',
             medium: '',
@@ -191,7 +200,7 @@ const portfolioData = {
             description: '',
         },
         {
-            id: 3,
+            id: 'train',
             title: '',
             size: '',
             medium: '',
