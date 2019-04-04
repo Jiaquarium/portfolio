@@ -173,6 +173,15 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'club-lonely',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_club-lonely.gif',
+            hiResImg: 'static/raw-media/diary-gifs_club-lonely.gif',
+            description: '',
+        },
+        {
             id: 'pcl',
             title: '',
             size: '',
