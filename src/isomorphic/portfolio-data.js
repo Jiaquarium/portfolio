@@ -173,6 +173,24 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'breakup',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_breakup.gif',
+            hiResImg: 'static/raw-media/diary-gifs_breakup.gif',
+            description: '',
+        },
+        {
+            id: 'real-train',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_real-train.gif',
+            hiResImg: 'static/raw-media/diary-gifs_real-train.gif',
+            description: '',
+        },
+        {
             id: 'club-lonely',
             title: '',
             size: '',
