@@ -173,6 +173,15 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'deal',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_deal.gif',
+            hiResImg: 'static/raw-media/diary-gifs_deal.gif',
+            description: '',
+        },
+        {
             id: 'breakup',
             title: '',
             size: '',
