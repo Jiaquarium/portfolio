@@ -173,6 +173,24 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'disappointed-parents',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_disappointed-parents.gif',
+            hiResImg: 'static/raw-media/diary-gifs_disappointed-parents.gif',
+            description: '',
+        },
+        {
+            id: 'galaxy',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_galaxy.gif',
+            hiResImg: 'static/raw-media/diary-gifs_galaxy.gif',
+            description: '',
+        },
+        {
             id: 'deal',
             title: '',
             size: '',
