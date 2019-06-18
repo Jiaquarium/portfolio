@@ -173,6 +173,15 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'super-smash',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_super-smash.gif',
+            hiResImg: 'static/raw-media/diary-gifs_super-smash.gif',
+            description: '',
+        },
+        {
             id: 'disappointed-parents',
             title: '',
             size: '',
