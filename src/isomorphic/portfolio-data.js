@@ -173,6 +173,15 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'shopping',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_shopping.gif',
+            hiResImg: 'static/raw-media/diary-gifs_shopping.gif',
+            description: '',
+        },
+        {
             id: 'super-smash',
             title: '',
             size: '',
