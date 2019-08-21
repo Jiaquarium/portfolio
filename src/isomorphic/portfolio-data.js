@@ -173,6 +173,15 @@ const portfolioData = {
     ],
     '/misc': [
         {
+            id: 'entering-club',
+            title: '',
+            size: '',
+            medium: '',
+            lowResImg: 'static/raw-media/diary-gifs_entering-club.gif',
+            hiResImg: 'static/raw-media/diary-gifs_entering-club.gif',
+            description: '',
+        },
+        {
             id: 'shopping',
             title: '',
             size: '',
