@@ -19,7 +19,7 @@ const Img = styled.img`
 `;
 
 const Logo = () => (
-    <NavLink to="/portfolio">
+    <NavLink to="/2019-">
         <ImgContainer>
             <Img src="static/raw-media/walking.gif" alt="penguin logo" />
         </ImgContainer>

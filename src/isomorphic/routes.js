@@ -11,15 +11,23 @@ import getPortfolioData from './portfolio-data';
 export const navItems = [
     {
         path: '/',
-        label: 'portfolio',
+        label: 'portfolio', // collapsed menu
         canExpand: true,
     },
     {
-        path: '/portfolio',
+        path: '/2019-',
+        exact: true,
+        component: Portfolio,
+        label: '(╯°□°)╯(◕‿◕ )',
+        fetchInitialData: () => getPortfolioData('/2019-'),
+        nestedUnder: '/',
+    },
+    {
+        path: '/2018-2019',
         exact: true,
         component: Portfolio,
         label: '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧',
-        fetchInitialData: () => getPortfolioData('/portfolio'),
+        fetchInitialData: () => getPortfolioData('/2018-2019'),
         nestedUnder: '/',
     },
     {

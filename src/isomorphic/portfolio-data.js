@@ -5,7 +5,28 @@
     FULL: 100%
 */
 const portfolioData = {
-    '/portfolio': [
+    '/2019-': [
+        {
+            id: 'april-10',
+            title: 'april 10, 2019 black hole pic drops',
+            size: '36”x32”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/april-10-2019-lo.jpg',
+            hiResImg: 'static/raw-media/april-10-2019-hi.jpg',
+            description:
+                'april 10, 2019 black hole pic drops, 2019, acrylic on canvas, 36”x32”.',
+        },
+        {
+            id: 'how-to-achieve-grayness',
+            title: 'how to achieve grayness',
+            size: '18”x22”.',
+            medium: 'acrylic on canvas.',
+            lowResImg: 'static/raw-media/grayness-lo.jpg',
+            hiResImg: 'static/raw-media/grayness-hi.jpg',
+            description: 'how to achieve grayness, 2019, acrylic on canvas, 18”x22”.',
+        },
+    ],
+    '/2018-2019': [
         {
             id: 1,
             title: 'BARTification',

@@ -14,9 +14,7 @@ const router = express.Router();
 // other static resources should just be served as they are
 router.use(express.static(path.resolve(__dirname, '..', 'build'), { maxAge: '30d' }));
 
-router.get('/', (req, res) =>
-    res.redirect(302, req.originalUrl.replace('/', '/portfolio'))
-);
+router.get('/', (req, res) => res.redirect(302, req.originalUrl.replace('/', '/2019-')));
 
 router.get('*', (req, res, next) => {
     const activeRoute = routes.find(route => matchPath(req.url, route)) || {};
