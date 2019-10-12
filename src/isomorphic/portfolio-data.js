@@ -7,23 +7,50 @@
 const portfolioData = {
     '/2019-': [
         {
-            id: 'april-10',
-            title: 'april 10, 2019 black hole pic drops',
-            size: '36”x32”.',
+            id: 'neveragainland',
+            title: 'neveragainland',
+            size: '34”x50”.',
+            medium: 'oil, acrylic on canvas.',
+            lowResImg: 'static/raw-media/neveragainland-lo.jpg',
+            hiResImg: 'static/raw-media/neveragainland-hi.jpg',
+            description: 'neveragainland, 2019, oil on canvas, 34”x50”.',
+        },
+        {
+            id: 'roses-are-red',
+            title: '',
+            size: '32”x38”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/roses-are-red-lo.jpg',
+            hiResImg: 'static/raw-media/roses-are-red-hi.jpg',
+            description:
+                'roses are red, violets are blue, but i like diamonds, 2019, oil on canvas, 32”x38”.',
+        },
+        {
+            id: 'listen',
+            title: '',
+            size: '34”x30”.',
+            medium: 'oil on canvas.',
+            lowResImg: 'static/raw-media/listen-lo.jpg',
+            hiResImg: 'static/raw-media/listen-hi.jpg',
+            description: 'they’ll talk if you listen, 2019, oil on canvas, 34”x30”.',
+        },
+        {
+            id: 'obsessed',
+            title: 'obsessed',
+            size: '36”x32”.',
             medium: 'acrylic on canvas.',
             lowResImg: 'static/raw-media/april-10-2019-lo.jpg',
             hiResImg: 'static/raw-media/april-10-2019-hi.jpg',
-            description:
-                'april 10, 2019 black hole pic drops, 2019, acrylic on canvas, 36”x32”.',
+            description: 'obsessed, 2019, acrylic on canvas, 36”x32”.',
         },
         {
             id: 'how-to-achieve-grayness',
-            title: 'how to achieve grayness',
-            size: '18”x22”.',
+            title: 'again and again',
+            size: '18”x22”.',
             medium: 'acrylic on canvas.',
             lowResImg: 'static/raw-media/grayness-lo.jpg',
             hiResImg: 'static/raw-media/grayness-hi.jpg',
-            description: 'how to achieve grayness, 2019, acrylic on canvas, 18”x22”.',
+            description: 'again and again, 2019, acrylic on canvas, 18”x22”.',
         },
     ],
     '/2018-2019': [
