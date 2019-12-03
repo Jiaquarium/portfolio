@@ -7,6 +7,16 @@
 const portfolioData = {
     '/2019-': [
         {
+            id: 'cameoutofus',
+            title: '',
+            size: '42”x36”.',
+            medium: 'spray paint and acrylic on canvas.',
+            lowResImg: 'static/raw-media/came-out-of-us-lo.jpg',
+            hiResImg: 'static/raw-media/came-out-of-us-hi.jpg',
+            description:
+                'came out of us, 2019, spray paint and acrylic on canvas, 42”x36”.',
+        },
+        {
             id: 'animalkingdom',
             title: '',
             size: '44”x48”.',
