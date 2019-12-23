@@ -7,6 +7,16 @@
 const portfolioData = {
     '/2019-': [
         {
+            id: '212',
+            title: '',
+            size: '60”x44”.',
+            medium: 'spray paint, acrylic and oil on canvas.',
+            lowResImg: 'static/raw-media/212-lo.jpg',
+            hiResImg: 'static/raw-media/212-hi.jpg',
+            description:
+                '’til 212°F, 2019, spray paint, acrylic and oil on canvas, 60”x44”.',
+        },
+        {
             id: 'cameoutofus',
             title: '',
             size: '42”x36”.',
