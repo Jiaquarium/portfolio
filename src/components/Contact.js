@@ -20,11 +20,13 @@ const ContactContentContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: ${baseSize * 4}px;
+    margin-top: ${baseSize * 5}px;
 
     ${media.maxWidth.tablet`width: 65%;`};
     ${media.maxWidth.mobile`
         width: 80%;
         margin-bottom: ${baseSize * 2}px;
+        margin-top: 0;
     `};
 `;
 const ParagraphWithPadding = styled(Paragraph)`padding-bottom: ${baseSize * 2}px;`;

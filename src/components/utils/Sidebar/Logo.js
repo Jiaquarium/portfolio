@@ -21,7 +21,7 @@ const Img = styled.img`
 const Logo = () => (
     <NavLink to="/daemons">
         <ImgContainer>
-            <Img src="static/raw-media/walking.gif" alt="penguin logo" />
+            <Img src="static/raw-media/daemon.png" alt="daemon logo" />
         </ImgContainer>
     </NavLink>
 );

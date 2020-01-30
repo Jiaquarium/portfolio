@@ -57,15 +57,6 @@ const portfolioData = {
             description: 'animal kingdom, 2019, oil on canvas, 44”x48”.',
         },
         {
-            id: 'greetingsfrom',
-            title: '',
-            size: '28”x25”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/greetings-from-lo.jpg',
-            hiResImg: 'static/raw-media/greetings-from-hi.jpg',
-            description: 'greetings from, 2019, oil on canvas, 28”x25”.',
-        },
-        {
             id: 'neveragainland',
             title: '',
             size: '34”x54”.',
