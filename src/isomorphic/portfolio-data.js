@@ -5,7 +5,17 @@
     FULL: 100%
 */
 const portfolioData = {
-    '/2019-': [
+    '/daemons': [
+        {
+            id: 'masochists',
+            title: '',
+            size: '42”x44”.',
+            medium: 'charcoal, ink, spray paint and acrylic on canvas.',
+            lowResImg: 'static/raw-media/masochists-lo.jpg',
+            hiResImg: 'static/raw-media/masochists-hi.jpg',
+            description:
+                'masochists in winter, 2020, charcoal, ink, spray paint and acrylic on canvas, 42”x44”.',
+        },
         {
             id: 'psychicsomewhere',
             title: '',
@@ -35,6 +45,8 @@ const portfolioData = {
             description:
                 'came out of us, 2019, spray paint and acrylic on canvas, 42”x36”.',
         },
+    ],
+    '/2019': [
         {
             id: 'animalkingdom',
             title: '',

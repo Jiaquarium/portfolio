@@ -1,6 +1,7 @@
 import Portfolio from '../components/Portfolio/Portfolio';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import CV from '../components/CV';
 import getPortfolioData from './portfolio-data';
 
 /*
@@ -15,11 +16,19 @@ export const navItems = [
         canExpand: true,
     },
     {
-        path: '/2019-',
+        path: '/daemons',
         exact: true,
         component: Portfolio,
-        label: '(╯°□°)╯(◕‿◕ )',
-        fetchInitialData: () => getPortfolioData('/2019-'),
+        label: 'daemons',
+        fetchInitialData: () => getPortfolioData('/daemons'),
+        nestedUnder: '/',
+    },
+    {
+        path: '/2019',
+        exact: true,
+        component: Portfolio,
+        label: 'psychic somewheres',
+        fetchInitialData: () => getPortfolioData('/2019'),
         nestedUnder: '/',
     },
     {
@@ -57,6 +66,12 @@ export const navItems = [
         exact: true,
         component: Contact,
         label: 'contact',
+    },
+    {
+        path: '/cv',
+        exact: true,
+        component: CV,
+        label: 'cv',
     },
 ];
 

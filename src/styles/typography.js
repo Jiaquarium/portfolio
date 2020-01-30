@@ -10,7 +10,8 @@ export const Paragraph = styled.span`
 `;
 
 export const ParagraphBold = styled.span`
-    /* nanum-gothic-700 - latin */
+    font-size: ${fontSizeSmall}px;
+
     font-family: 'Nanum Gothic', 'Times New Roman';
     font-style: normal;
     font-weight: 700;
