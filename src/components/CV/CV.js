@@ -69,6 +69,14 @@ const About = () => (
             <BoldParagraphWithPadding>Press</BoldParagraphWithPadding>
             <ParagraphWithSmallPadding>
                 <Link
+                    href="https://www.thevisualist.org/2020/01/spaces-within/"
+                    target="_blank"
+                >
+                    2020 The Visualist
+                </Link>
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
+                <Link
                     href="https://www.friscotexas.gov/DocumentCenter/View/19667/Art-in-the-Atrium-19-artist-list"
                     target="_blank"
                 >
