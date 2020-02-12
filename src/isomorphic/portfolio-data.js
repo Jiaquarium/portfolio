@@ -7,14 +7,24 @@
 const portfolioData = {
     '/daemons': [
         {
+            id: 'guardianangel',
+            title: '',
+            size: '32”x36”.',
+            medium: 'charcoal, ink, spray paint on canvas.',
+            lowResImg: 'static/raw-media/guardian-angel-lo.jpg',
+            hiResImg: 'static/raw-media/guardian-angel-hi.jpg',
+            description:
+                'guardian angel you fell asleep on the watch, 2020, charcoal, ink, spray paint on canvas, 32”x36”.',
+        },
+        {
             id: 'masochists',
             title: '',
-            size: '42”x44”.',
+            size: '36”x40”.',
             medium: 'charcoal, ink, spray paint and acrylic on canvas.',
             lowResImg: 'static/raw-media/masochists-lo.jpg',
             hiResImg: 'static/raw-media/masochists-hi.jpg',
             description:
-                'masochists in winter, 2020, charcoal, ink, spray paint and acrylic on canvas, 42”x44”.',
+                'masochists in winter, 2020, charcoal, ink, spray paint and acrylic on canvas, 36”x40”.',
         },
         {
             id: 'psychicsomewhere',
