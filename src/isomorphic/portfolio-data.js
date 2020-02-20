@@ -7,6 +7,16 @@
 const portfolioData = {
     '/daemons': [
         {
+            id: 'psychesotired',
+            title: '',
+            size: '38”x44”.',
+            medium: 'spray paint and ink on canvas.',
+            lowResImg: 'static/raw-media/psyche-so-tired-lo.jpg',
+            hiResImg: 'static/raw-media/psyche-so-tired-hi.jpg',
+            description:
+                'it’s hard letting someone else in, 2020, spray paint and ink on canvas, 38”x44”.',
+        },
+        {
             id: 'guardianangel',
             title: '',
             size: '32”x36”.',
