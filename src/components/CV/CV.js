@@ -50,6 +50,12 @@ const About = () => (
 
             <BoldParagraphWithPadding>Group Exhibitions</BoldParagraphWithPadding>
             <ParagraphWithSmallPadding>
+                2020 SLAYSIAN, Co-Prosperity Sphere, Chicago, IL
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
+                2020 INCUBATOR, Columbus Drive Building, Chicago, IL
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
                 2020 Post-Baccalaureate Annual, Sullivan Galleries, Chicago, IL
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>

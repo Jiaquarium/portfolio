@@ -5,7 +5,17 @@
     FULL: 100%
 */
 const portfolioData = {
-    '/daemons': [
+    '/invisible': [
+        {
+            id: 'invisible',
+            title: '',
+            size: '40”x50”.',
+            medium: 'spray paint and ink on canvas.',
+            lowResImg: 'static/raw-media/invisible-lo.jpg',
+            hiResImg: 'static/raw-media/invisible-hi.jpg',
+            description:
+                'invisible until it’s not, 2020, spray paint and ink on canvas, 40”x50”.',
+        },
         {
             id: 'psychesotired',
             title: '',

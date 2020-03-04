@@ -15,7 +15,7 @@ const router = express.Router();
 router.use(express.static(path.resolve(__dirname, '..', 'build'), { maxAge: '30d' }));
 
 router.get('/', (req, res) => 
-    res.redirect(302, req.originalUrl.replace('/', '/daemons'))
+    res.redirect(302, req.originalUrl.replace('/', '/invisible'))
 );
 
 router.get('*', (req, res, next) => {

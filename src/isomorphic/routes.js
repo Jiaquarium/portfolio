@@ -16,11 +16,11 @@ export const navItems = [
         canExpand: true,
     },
     {
-        path: '/daemons',
+        path: '/invisible',
         exact: true,
         component: Portfolio,
-        label: 'daemons',
-        fetchInitialData: () => getPortfolioData('/daemons'),
+        label: 'invisible until it’s not',
+        fetchInitialData: () => getPortfolioData('/invisible'),
         nestedUnder: '/',
     },
     {
