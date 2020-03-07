@@ -28,18 +28,18 @@ export const renderPage = ({
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
 
-    <meta property="og:description" content="Visual arts portfolio of James Gu." >
-    <meta property="og:title" content="James J Gu | Portfolio" />
+    <meta property="og:description" content="visual arts portfolio of james gu." >
+    <meta property="og:title" content="james j gu | portfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://jamesjgu.com/static/raw-media/letting-go-hi.jpg" />
-    <meta property="og:image:secure_url" content="http://jamesjgu.com/static/raw-media/letting-go-hi.jpg" />
-    <meta property="og:image:width" content="2914" />
-    <meta property="og:image:height" content="2176" />
+    <meta property="og:image" content="http://jamesjgu.com/static/raw-media/invisible-hi.jpg" />
+    <meta property="og:image:secure_url" content="http://jamesjgu.com/static/raw-media/invisible-hi.jpg" />
+    <meta property="og:image:width" content="4402" />
+    <meta property="og:image:height" content="3504" />
     <meta property="og:url" content="http://jamesjgu.com/" />
     <meta property="og:site_name" content="Portfolio">
 
     <meta name="twitter:description" content="Visual arts portfolio of James Gu.">
-    <meta name="twitter:image:src" content="http://jamesjgu.com/static/raw-media/letting-go-hi.jpg" />
+    <meta name="twitter:image:src" content="http://jamesjgu.com/static/raw-media/invisible-hi.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 
     <meta property="og:image:type" content="image/jpeg" />
