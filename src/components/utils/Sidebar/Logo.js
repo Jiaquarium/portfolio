@@ -19,7 +19,7 @@ const Img = styled.img`
 `;
 
 const Logo = () => (
-    <NavLink to="/invisible">
+    <NavLink to="/may-care">
         <ImgContainer>
             <Img src="static/raw-media/daemon.png" alt="daemon logo" />
         </ImgContainer>

@@ -16,6 +16,14 @@ export const navItems = [
         canExpand: true,
     },
     {
+        path: '/may-care',
+        exact: true,
+        component: Portfolio,
+        label: 'may care',
+        fetchInitialData: () => getPortfolioData('/may-care'),
+        nestedUnder: '/',
+    },
+    {
         path: '/invisible',
         exact: true,
         component: Portfolio,
