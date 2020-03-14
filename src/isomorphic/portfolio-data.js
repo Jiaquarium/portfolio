@@ -10,11 +10,11 @@ const portfolioData = {
             id: 'throwup',
             title: '',
             size: '46”x58”.',
-            medium: 'spray paint, ink and oiled charcoal on canvas.',
+            medium: 'spray paint, ink, acrylic and oiled charcoal on canvas.',
             lowResImg: 'static/raw-media/youll-throw-me-up-just-watch-lo.jpg',
             hiResImg: 'static/raw-media/youll-throw-me-up-just-watch-hi.jpg',
             description:
-                'you’ll throw me up just watch!, 2020, spray paint, ink and oiled charcoal on canvas, 46”x58”.',
+                'you’ll throw me up just watch!, 2020, spray paint, ink, acrylic and oiled charcoal on canvas, 46”x58”.',
         },
     ],
     '/invisible': [
