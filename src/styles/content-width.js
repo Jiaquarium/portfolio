@@ -1,2 +1,2 @@
-export const maxContentWidth = 960;
+export const maxContentWidth = 1296;
 export const sidebarWidth = 180;

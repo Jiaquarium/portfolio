@@ -8,17 +8,32 @@ import { baseSize } from '../../../styles/constants';
 import media from '../../../styles/break-points';
 
 const CardContainer = styled.div`
-    width: 50%;
+    width: 66%;
     text-align: left;
     display: flex;
     flex-direction: column;
     margin-bottom: ${baseSize * 4}px;
 
     ${media.maxWidth.mobile`
-        width: 80%;
+        width: 100%;
+        max-width: 840px;
         margin-bottom: ${baseSize * 2}px;
     `};
 `;
+
+const CardContainerSmall = styled.div`
+    width: 36.5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: ${baseSize * 4}px;
+
+    ${media.maxWidth.mobile`
+        width: 100%;
+        margin-bottom: ${baseSize * 2}px;
+    `};
+`;
+
 const ParagraphWithPadding = styled(Paragraph)`padding-top: ${baseSize}px;`;
 
 export default class Card extends Component {
@@ -55,8 +70,9 @@ export default class Card extends Component {
             lowResImgWidth,
         } = this.props;
         const { imgSrc } = this.state;
-        return (
-            <CardContainer>
+        const smallPortfolios = ['/2018-2019', '/misc', '/not-good-enough-for-a-story'];
+        const imageDiv = (
+            <div>
                 <ImageZoom
                     image={{
                         src: imgSrc,
@@ -78,7 +94,12 @@ export default class Card extends Component {
                     }}
                 />
                 <ParagraphWithPadding>{description}</ParagraphWithPadding>
-            </CardContainer>
+            </div>
+        );
+        return smallPortfolios.indexOf(activePortfolio) > -1 ? (
+            <CardContainerSmall>{imageDiv}</CardContainerSmall>
+        ) : (
+            <CardContainer>{imageDiv}</CardContainer>
         );
     };
 }

@@ -4,8 +4,8 @@ import { maxContentWidth, sidebarWidth } from './content-width';
 const sizes = {
     /* Must halve maxContentWidth bc content center justifies itself */
     largeScreen: (maxContentWidth / 2 + sidebarWidth) * 2,
-    tablet: 936,
-    mobile: 668,
+    tablet: 966,
+    mobile: 886,
 };
 
 // Iterate through the sizes and create a media template

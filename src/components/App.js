@@ -22,7 +22,7 @@ const AppContentContainer = styled.div`
     display: flex;
     flex: 1 1 auto;
 
-    ${media.maxWidth.largeScreen`margin: ${baseSize * 2}px ${baseSize}px 0`};
+    ${media.maxWidth.largeScreen`margin: ${headerHeight}px ${baseSize * 2}px 0`};
     ${media.maxWidth.mobile`margin: ${headerHeight}px auto 0;`};
 `;
 

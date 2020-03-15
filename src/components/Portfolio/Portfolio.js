@@ -35,7 +35,12 @@ class Portfolio extends Component {
     componentDidMount = () => {
         const { path, fetchInitialData } = this.props;
         if (!this.state.portfolio) {
-            fetchInitialData(path).then(({ portfolio }) => this.setState({ portfolio }));
+            fetchInitialData(path).then(({ portfolio, activePortfolio }) =>
+                this.setState({
+                    portfolio,
+                    activePortfolio,
+                })
+            );
         }
     };
 
