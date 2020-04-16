@@ -7,6 +7,16 @@
 const portfolioData = {
     '/may-care': [
         {
+            id: 'maycaremansion',
+            title: '',
+            size: '23”x30”.',
+            medium: 'spray paint, charcoal and graphite on paper.',
+            lowResImg: 'static/raw-media/may-care-mansion-lo.jpg',
+            hiResImg: 'static/raw-media/may-care-mansion-hi.jpg',
+            description:
+                'may-care mansion, 2020, spray paint, charcoal and graphite on paper, 23”x30”.',
+        },
+        {
             id: 'throwup',
             title: '',
             size: '46”x58”.',
