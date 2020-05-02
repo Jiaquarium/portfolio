@@ -50,29 +50,55 @@ const About = () => (
 
             <BoldParagraphWithPadding>Group Exhibitions</BoldParagraphWithPadding>
             <ParagraphWithSmallPadding>
-                2020 SLAYSIAN, Co-Prosperity Sphere, Chicago, IL
+                <Link href="https://vimeo.com/412546372" target="_blank">
+                    2020 ExTV’s In Between, online
+                </Link>
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
+                <Link
+                    href="http://coprosperity.org/events/2020/3/10/slaysian"
+                    target="_blank"
+                >
+                    2020 SLAYSIAN, Co-Prosperity Sphere, Chicago, IL
+                </Link>
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
                 2020 INCUBATOR, Columbus Drive Building, Chicago, IL
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
-                2020 Post-Baccalaureate Annual, Sullivan Galleries, Chicago, IL
+                <Link href="https://sites.saic.edu/postbac2020/" target="_blank">
+                    2020 Post-Baccalaureate Annual, Sullivan Galleries, Chicago, IL
+                </Link>
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
                 2019 SAIC Graduate Open Studios, SAIC MacLean Center, Chicago, IL
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
-                2019 Art in the Atrium 19, George A. Purefoy Municipal Center, Frisco, TX
+                <Link
+                    href="https://www.friscotexas.gov/DocumentCenter/View/19667/Art-in-the-Atrium-19-artist-list"
+                    target="_blank"
+                >
+                    2019 Art in the Atrium 19, George A. Purefoy Municipal Center, Frisco, TX
+                </Link>
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
-                2019 CLIP: An International Exhibition of Works on Paper, CASP 5&J Gallery,
-                Lubbock, TX
+                <Link href="https://casp-arts.org/events/" target="_blank">
+                    2019 CLIP: An International Exhibition of Works on Paper, CASP 5&J Gallery, Lubbock, TX
+                </Link>
             </ParagraphWithSmallPadding>
             <ParagraphWithPadding>
                 2018 Farley’s Coffee Window Artists, Farley’s Coffee, San Francisco, CA
             </ParagraphWithPadding>
 
             <BoldParagraphWithPadding>Press</BoldParagraphWithPadding>
+            <ParagraphWithSmallPadding>
+                <Link
+                    href="https://www.wbez.org/stories/exhibition-celebrating-local-asian-american-artists-goes-digital/8a6c61fe-30e1-4cf9-8168-393a0c79d483?preview=1588363517678"
+                    target="_blank"
+                >
+                    2020 WBEZ Chicago's NPR News Source - SLAYSIAN
+                </Link>
+            </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
                 <Link
                     href="https://www.thevisualist.org/2020/03/slaysian/"
@@ -87,22 +113,6 @@ const About = () => (
                     target="_blank"
                 >
                     2020 The Visualist - Post-Baccalaureate Annual
-                </Link>
-            </ParagraphWithSmallPadding>
-            <ParagraphWithSmallPadding>
-                <Link
-                    href="https://www.friscotexas.gov/DocumentCenter/View/19667/Art-in-the-Atrium-19-artist-list"
-                    target="_blank"
-                >
-                    2019 friscotexas.gov
-                </Link>
-            </ParagraphWithSmallPadding>
-            <ParagraphWithSmallPadding>
-                <Link
-                    href="https://m.facebook.com/castudioproject/posts/2434840573269496"
-                    target="_blank"
-                >
-                    2019 Charles Adams Studio Project - CASP / 5&J Gallery
                 </Link>
             </ParagraphWithSmallPadding>
         </CVContentContainer>

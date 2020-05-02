@@ -7,6 +7,16 @@
 const portfolioData = {
     '/may-care': [
         {
+            id: 'saiddonttalktohim',
+            title: '',
+            size: '23”x30”.',
+            medium: 'spray paint, charcoal and graphite on paper.',
+            lowResImg: 'static/raw-media/said-dont-talk-to-him-lo.jpg',
+            hiResImg: 'static/raw-media/said-dont-talk-to-him-hi.jpg',
+            description:
+                'said don’t talk to him, 2020, spray paint, charcoal and graphite on paper, 23”x30”.',
+        },
+        {
             id: 'maycaremansion',
             title: '',
             size: '23”x30”.',
