@@ -28,8 +28,8 @@ export const renderPage = ({
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
 
-    <meta property="og:description" content="visual arts portfolio of james gu." >
-    <meta property="og:title" content="james j gu | portfolio" />
+    <meta property="og:description" content="james gu portfolio." >
+    <meta property="og:title" content="james j gu portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://jamesjgu.com/static/raw-media/invisible-hi.jpg" />
     <meta property="og:image:secure_url" content="http://jamesjgu.com/static/raw-media/invisible-hi.jpg" />
@@ -38,7 +38,7 @@ export const renderPage = ({
     <meta property="og:url" content="http://jamesjgu.com/" />
     <meta property="og:site_name" content="Portfolio">
 
-    <meta name="twitter:description" content="Visual arts portfolio of James Gu.">
+    <meta name="twitter:description" content="james gu portfolio.">
     <meta name="twitter:image:src" content="http://jamesjgu.com/static/raw-media/invisible-hi.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 
@@ -49,7 +49,7 @@ export const renderPage = ({
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="static/manifest.json">
-    <link rel="shortcut icon" href="./daemon.png">
+    <link rel="shortcut icon" href="./ids.png">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the 'public' folder during the build.
@@ -59,9 +59,9 @@ export const renderPage = ({
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running 'npm run build'.
     -->
-    <title>James J Gu | Portfolio</title>
-    <meta name="author" content="James Gu">
-    <meta name="description" content="Visual arts portfolio of James Gu.">
+    <title>james j gu portfolio</title>
+    <meta name="author" content="james gu">
+    <meta name="description" content="james gu portfolio.">
 
     <link rel="preload" href="static/js/${bundleFileName}.js" as="script">
     <link rel="prefetch" href="static/js/${bundleFileName}.js">

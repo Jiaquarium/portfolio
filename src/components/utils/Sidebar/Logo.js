@@ -21,7 +21,7 @@ const Img = styled.img`
 const Logo = () => (
     <NavLink to="/may-care">
         <ImgContainer>
-            <Img src="static/raw-media/daemon.png" alt="daemon logo" />
+            <Img src="static/raw-media/ids.png" alt="ids logo" />
         </ImgContainer>
     </NavLink>
 );

@@ -40,6 +40,8 @@ const ParagraphWithSmallPadding = styled(Paragraph)`padding-bottom: ${baseSize /
 const About = () => (
     <CVContainer>
         <CVContentContainer>
+            <BoldParagraphWithPadding>James J Gu</BoldParagraphWithPadding>
+            
             <BoldParagraphWithPadding>Education</BoldParagraphWithPadding>
             <ParagraphWithSmallPadding>
                 2020 School of the Art Institute of Chicago, Post-Bacc PTDW

@@ -48,14 +48,6 @@ export const navItems = [
         nestedUnder: '/',
     },
     {
-        path: '/not-good-enough-for-a-story',
-        exact: true,
-        component: Portfolio,
-        label: 'not good enough for a story',
-        fetchInitialData: () => getPortfolioData('/not-good-enough-for-a-story'),
-        nestedUnder: '/',
-    },
-    {
         path: '/misc',
         exact: true,
         component: Portfolio,
