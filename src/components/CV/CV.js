@@ -41,7 +41,8 @@ const About = () => (
     <CVContainer>
         <CVContentContainer>
             <BoldParagraphWithPadding>James J Gu</BoldParagraphWithPadding>
-            
+            <ParagraphWithPadding>lives and works in Chicago, IL</ParagraphWithPadding>
+
             <BoldParagraphWithPadding>Education</BoldParagraphWithPadding>
             <ParagraphWithSmallPadding>
                 2020 School of the Art Institute of Chicago, Post-Bacc PTDW
@@ -98,7 +99,15 @@ const About = () => (
                     href="https://www.wbez.org/stories/exhibition-celebrating-local-asian-american-artists-goes-digital/8a6c61fe-30e1-4cf9-8168-393a0c79d483?preview=1588363517678"
                     target="_blank"
                 >
-                    2020 WBEZ Chicago's NPR News Source - SLAYSIAN
+                    2020 WBEZ Chicago's NPR News Source
+                </Link>
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
+                <Link
+                    href="https://asamnews.com/2020/05/04/artists-on-the-lam-jenny-lam-showcases-32-asian-american-artists-from-the-midwest/"
+                    target="_blank"
+                >
+                    2020 AsAmNews
                 </Link>
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
