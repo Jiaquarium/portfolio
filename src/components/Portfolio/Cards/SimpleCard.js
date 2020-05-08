@@ -76,7 +76,7 @@ export default class Card extends Component {
                 <ImageZoom
                     image={{
                         src: imgSrc,
-                        alt: `${activePortfolio} – ${title} (lo-res)`,
+                        alt: `james gu ${activePortfolio} – ${title} (lo-res)`,
                         className: `${activePortfolio}__img`,
                         style: {
                             width: lowResImgWidth || '100%',
@@ -85,7 +85,7 @@ export default class Card extends Component {
                     }}
                     zoomImage={{
                         src: imgSrc,
-                        alt: `${activePortfolio} – ${title} (hi-res)`,
+                        alt: `james gu ${activePortfolio} – ${title} (hi-res)`,
                     }}
                     defaultStyles={{
                         overlay: {

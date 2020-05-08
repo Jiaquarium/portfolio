@@ -8,7 +8,7 @@ const portfolioData = {
     '/may-care': [
         {
             id: 'saiddonttalktohim',
-            title: '',
+            title: 'said don’t talk to him',
             size: '23”x30”.',
             medium: 'spray paint, charcoal and graphite on paper.',
             lowResImg: 'static/raw-media/said-dont-talk-to-him-lo.jpg',
@@ -18,7 +18,7 @@ const portfolioData = {
         },
         {
             id: 'maycaremansion',
-            title: '',
+            title: 'may care',
             size: '23”x30”.',
             medium: 'spray paint, charcoal and graphite on paper.',
             lowResImg: 'static/raw-media/may-care-mansion-lo.jpg',
@@ -28,7 +28,7 @@ const portfolioData = {
         },
         {
             id: 'throwup',
-            title: '',
+            title: 'you’ll throw me up just watch!',
             size: '46”x58”.',
             medium: 'spray paint, ink, acrylic and oiled charcoal on canvas.',
             lowResImg: 'static/raw-media/youll-throw-me-up-just-watch-lo.jpg',
@@ -40,7 +40,7 @@ const portfolioData = {
     '/invisible': [
         {
             id: 'invisible',
-            title: '',
+            title: 'invisible until it’s not',
             size: '40”x50”.',
             medium: 'spray paint and ink on canvas.',
             lowResImg: 'static/raw-media/invisible-lo.jpg',
@@ -50,7 +50,7 @@ const portfolioData = {
         },
         {
             id: 'psychesotired',
-            title: '',
+            title: 'it’s hard letting someone else in',
             size: '38”x44”.',
             medium: 'spray paint and ink on canvas.',
             lowResImg: 'static/raw-media/psyche-so-tired-lo.jpg',
@@ -60,7 +60,7 @@ const portfolioData = {
         },
         {
             id: 'guardianangel',
-            title: '',
+            title: 'guardian angel you fell asleep on the watch',
             size: '32”x36”.',
             medium: 'charcoal, ink, spray paint on canvas.',
             lowResImg: 'static/raw-media/guardian-angel-lo.jpg',
@@ -70,7 +70,7 @@ const portfolioData = {
         },
         {
             id: 'masochists',
-            title: '',
+            title: 'masochists in winter',
             size: '36”x40”.',
             medium: 'charcoal, ink, spray paint and acrylic on canvas.',
             lowResImg: 'static/raw-media/masochists-lo.jpg',
@@ -80,7 +80,7 @@ const portfolioData = {
         },
         {
             id: 'psychicsomewhere',
-            title: '',
+            title: 'psychic somewhere',
             size: '23”x30”.',
             medium: 'charcoal and ink on paper.',
             lowResImg: 'static/raw-media/psychic-somewhere-lo.jpg',
@@ -89,7 +89,7 @@ const portfolioData = {
         },
         {
             id: '212',
-            title: '',
+            title: '’til 212°F',
             size: '60”x44”.',
             medium: 'spray paint, acrylic and oil on canvas.',
             lowResImg: 'static/raw-media/212-lo.jpg',
@@ -99,7 +99,7 @@ const portfolioData = {
         },
         {
             id: 'cameoutofus',
-            title: '',
+            title: 'came out of us',
             size: '42”x36”.',
             medium: 'spray paint and acrylic on canvas.',
             lowResImg: 'static/raw-media/came-out-of-us-lo.jpg',
@@ -111,7 +111,7 @@ const portfolioData = {
     '/2019': [
         {
             id: 'animalkingdom',
-            title: '',
+            title: 'animal kingdom',
             size: '44”x48”.',
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/animal-kingdom-lo.jpg',
@@ -120,7 +120,7 @@ const portfolioData = {
         },
         {
             id: 'neveragainland',
-            title: '',
+            title: 'neveragainland',
             size: '34”x54”.',
             medium: 'oil, acrylic on canvas.',
             lowResImg: 'static/raw-media/neveragainland-lo.jpg',
@@ -129,7 +129,7 @@ const portfolioData = {
         },
         {
             id: 'roses-are-red',
-            title: '',
+            title: 'roses are red, violets are blue, but i like diamonds',
             size: '30”x38”.',
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/roses-are-red-lo.jpg',
@@ -139,31 +139,13 @@ const portfolioData = {
         },
         {
             id: 'listen',
-            title: '',
+            title: 'they’ll talk if you listen',
             size: '34”x32”.',
             medium: 'oil on canvas.',
             lowResImg: 'static/raw-media/listen-lo.jpg',
             hiResImg: 'static/raw-media/listen-hi.jpg',
             description: 'they’ll talk if you listen, 2019, oil on canvas, 34”x32”.',
         },
-        // {
-        //     id: 'obsessed',
-        //     title: 'obsessed',
-        //     size: '36”x32”.',
-        //     medium: 'acrylic on canvas.',
-        //     lowResImg: 'static/raw-media/april-10-2019-lo.jpg',
-        //     hiResImg: 'static/raw-media/april-10-2019-hi.jpg',
-        //     description: 'obsessed, 2019, acrylic on canvas, 36”x32”.',
-        // },
-        // {
-        //     id: 'how-to-achieve-grayness',
-        //     title: 'again and again',
-        //     size: '18”x22”.',
-        //     medium: 'acrylic on canvas.',
-        //     lowResImg: 'static/raw-media/grayness-lo.jpg',
-        //     hiResImg: 'static/raw-media/grayness-hi.jpg',
-        //     description: 'again and again, 2019, acrylic on canvas, 18”x22”.',
-        // },
     ],
     '/2018-2019': [
         {
@@ -214,53 +196,6 @@ const portfolioData = {
             hiResImg: 'static/raw-media/rpgs-hi.jpg',
             description:
                 'i learned everything i know from RPGs, 2019, cut-and-pasted illustrations from storybook, tape, ink, graphite on rice paper, 23”x14”.',
-        },
-    ],
-    '/not-good-enough-for-a-story': [
-        {
-            id: 1,
-            title: '',
-            size: '12”x16”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/was-it-really-worth-it-lo.jpg',
-            hiResImg: 'static/raw-media/was-it-really-worth-it-hi.jpg',
-            description: '',
-        },
-        {
-            id: 2,
-            title: '',
-            size: '12”x16”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/family-dinner-lo.jpg',
-            hiResImg: 'static/raw-media/family-dinner-hi.jpg',
-            description: '',
-        },
-        {
-            id: 3,
-            title: '',
-            size: '14”x11”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/hi-nice-to-meet-you-lo.jpg',
-            hiResImg: 'static/raw-media/hi-nice-to-meet-you-hi.jpg',
-            description: '',
-        },
-        {
-            id: 4,
-            title: '',
-            size: '12”x24”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/night-loops-lo.jpg',
-            hiResImg: 'static/raw-media/night-loops-hi.jpg',
-            description: '',
-        },
-        {
-            id: 5,
-            title: '',
-            size: '12”x24”.',
-            medium: 'oil on canvas.',
-            lowResImg: 'static/raw-media/good-day-lo.jpg',
-            hiResImg: 'static/raw-media/good-day-hi.jpg',
-            description: '',
         },
     ],
     '/misc': [
