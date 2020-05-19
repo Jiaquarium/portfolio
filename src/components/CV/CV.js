@@ -112,6 +112,14 @@ const About = () => (
             </ParagraphWithSmallPadding>
             <ParagraphWithSmallPadding>
                 <Link
+                    href="http://sixtyinchesfromcenter.org/slaysian-an-abundance-of-stories/"
+                    target="_blank"
+                >
+                    2020 Sixty Inches from Center
+                </Link>
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
+                <Link
                     href="https://www.thevisualist.org/2020/03/slaysian/"
                     target="_blank"
                 >
