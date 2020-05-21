@@ -95,6 +95,11 @@ const About = () => (
 
             <BoldParagraphWithPadding>Press</BoldParagraphWithPadding>
             <ParagraphWithSmallPadding>
+                <Link href="https://www.myfirstcreation.com/" target="_blank">
+                    2020 My First Creation
+                </Link>
+            </ParagraphWithSmallPadding>
+            <ParagraphWithSmallPadding>
                 <Link
                     href="https://www.wbez.org/stories/exhibition-celebrating-local-asian-american-artists-goes-digital/8a6c61fe-30e1-4cf9-8168-393a0c79d483?preview=1588363517678"
                     target="_blank"
