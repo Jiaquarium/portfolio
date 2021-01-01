@@ -1,11 +1,20 @@
 /*
     Qualities:
-    MOBILE: 80% JPG quality from sketch
-    MOBILE-FULL: 90%
-    FULL: 100%
+    LO: <200KB, width: 1688px
+    HI: ~1-2MB
 */
 const portfolioData = {
     '/may-care': [
+        {
+            id: 'dawnofanewday',
+            title: 'dawn of a new day',
+            size: '22.5”x29”.',
+            medium: 'ink, charcoal, spray paint and acrylic on paper.',
+            lowResImg: 'static/raw-media/dawn-of-a-new-day-lo.jpg',
+            hiResImg: 'static/raw-media/dawn-of-a-new-day-hi.jpg',
+            description:
+                'dawn of a new day, 2020, ink, charcoal, spray paint and acrylic on paper, 22.5”x29”.',
+        },
         {
             id: 'saiddonttalktohim',
             title: 'said don’t talk to him',
