@@ -4,12 +4,18 @@ import { Menu, ChevronDown, CloudRain } from 'react-feather';
 import ReactModal from 'react-modal';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { baseSize, baseFontColor, headerHeight } from '../../../styles/constants';
+import {
+    baseSize,
+    baseFontColor,
+    sidebarFontColor,
+    headerHeight,
+} from '../../../styles/constants';
 import { gutterSize } from '../../../styles/gutter';
 import { Paragraph } from '../../../styles/typography';
 import {
     backgroundColorPrimary,
     overlayBackgroundColorPrimary,
+    backgroundColorSecondary,
 } from '../../../styles/colors';
 import media from '../../../styles/break-points';
 import { maxContentWidth, sidebarWidth } from '../../../styles/content-width';
@@ -50,8 +56,11 @@ const SidebarContainer = styled.div`
     flex: 0 0 ${sidebarWidth}px;
     flex-direction: column;
     padding-left: ${baseSize}px;
+    padding-right: ${baseSize}px;
     position: fixed;
     left: 0;
+    background-color: ${backgroundColorSecondary};
+    height: 100%;
 
     ${media.maxWidth.mobile`
         display: none;
@@ -72,6 +81,10 @@ const HeaderListMobile = SidebarList.extend`flex-direction: column;`;
 export const NavLink = styled(Link)`
     text-decoration: none;
     color: ${baseFontColor};
+`;
+export const SidebarNavLink = styled(Link)`
+    text-decoration: none;
+    color: ${sidebarFontColor} !important;
 `;
 export const LinkWrapper = styled.div`
     padding: ${LINK_SPACING}px 0;
@@ -221,11 +234,11 @@ export default class Sidebar extends Component {
                     </LogoContainer>
                     <SidebarListDesktop>
                         {routes.map(({ path, label }) => (
-                            <NavLink key={`side-bar_${path}`} to={path}>
+                            <SidebarNavLink key={`side-bar_${path}`} to={path}>
                                 <LinkWrapper>
                                     <Paragraph>{label}</Paragraph>
                                 </LinkWrapper>
-                            </NavLink>
+                            </SidebarNavLink>
                         ))}
                     </SidebarListDesktop>
                 </SidebarContainer>
