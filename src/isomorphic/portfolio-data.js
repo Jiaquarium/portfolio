@@ -6,6 +6,16 @@
 const portfolioData = {
     '/may-care': [
         {
+            id: '123',
+            title: 'alpine soul',
+            size: '18”x26”.',
+            medium: 'graphite, charcoal, spray paint and acrylic on paper.',
+            lowResImg: 'static/raw-media/123-lo.jpg',
+            hiResImg: 'static/raw-media/123-hi.jpg',
+            description:
+                'alpine soul, 2021, graphite, charcoal, spray paint and acrylic on paper, 18”x26”.',
+        },
+        {
             id: 'dawnofanewday',
             title: 'dawn of a new day',
             size: '22.5”x29”.',
