@@ -15,7 +15,7 @@ const router = express.Router();
 router.use(express.static(path.resolve(__dirname, '..', 'build'), { maxAge: '30d' }));
 
 router.get('/', (req, res) => 
-    res.redirect(301, req.originalUrl.replace('/', '/may-care'))
+    res.redirect(302, req.originalUrl.replace('/', '/may-care'))
 );
 
 router.get('*', (req, res, next) => {
