@@ -33,6 +33,19 @@ make docker-build
 make docker-run
 ```
 
+Alternatively, without using make:
+```
+docker stop <CURRENT_CONTAINER_HASH>
+docker rm <CURRENT_CONTAINER_HASH>
+docker build -t jamesgu/art-portfolio:YEAR_MO_DAY_TIME .
+docker run -d --name art-portfolio -p 80:8000 jamesgu/art-portfolio:YEAR_MO_DAY_TIME
+```
+
+To clean up periodically:
+```
+docker system prune
+```
+
 > ensure webpack 3.11.0 is installed for react-scripts to work
 
 ### create-react-app docs
